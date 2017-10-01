@@ -4,8 +4,8 @@
 #include <OneWire.h>
 #include <DallasTemperature.h>
 #define DHT11_PIN 4
-#define DHT22_PIN 2
-#define DS1820_PIN 3
+#define DHT22_PIN 3
+#define DS1820_PIN 2
 
 
 DHT dht11(DHT11_PIN, DHT11);
